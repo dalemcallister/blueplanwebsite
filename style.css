@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100;
+  font-family: 'Inter', sans-serif;
+}
+
+.hero-section {
+  background-color: #c8d9e6;
+  background-size: cover;
+  background-position: center;
+  @apply rounded-3xl mx-4 my-8 shadow-lg;
+}
+
+.what-we-do-section {
+  background-color: #c8d9e6;
+  @apply rounded-3xl mx-4 my-8 shadow-lg;
+}
+
+.glass-card {
+  @apply bg-white/80 backdrop-blur-md rounded-lg shadow-lg p-6;
+}
+
+.nav-link {
+  @apply text-white hover:text-primary transition-colors;
+}
+
+.section-title {
+  @apply text-3xl font-bold mb-6 text-gray-800;
+}
+
+.blog-card {
+  @apply bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105;
+}
